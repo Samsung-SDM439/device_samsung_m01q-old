@@ -150,5 +150,8 @@ VENDOR_SECURITY_PATCH := 2021-07-01
 # FSTAB
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# FS CONFIG
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+
 # Inherit from the proprietary version
 -include vendor/samsung/m01q/BoardConfigVendor.mk
