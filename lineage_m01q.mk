@@ -24,6 +24,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from m01q device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_m01q
 PRODUCT_DEVICE := m01q
 PRODUCT_MANUFACTURER := samsung
