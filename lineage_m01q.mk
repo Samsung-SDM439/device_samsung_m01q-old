@@ -23,3 +23,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from m01q device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+
+PRODUCT_NAME := lineage_m01q
+PRODUCT_DEVICE := m01q
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-M015G
