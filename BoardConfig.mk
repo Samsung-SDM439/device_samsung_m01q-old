@@ -96,3 +96,6 @@ ifeq ($(HOST_OS),linux)
     endif
   endif
 endif
+
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
