@@ -103,3 +103,6 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Security Patch
 VENDOR_SECURITY_PATCH := 2021-07-01
+
+# FSTAB
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
