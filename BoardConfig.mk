@@ -80,6 +80,7 @@ BOARD_USE_QCOM_HARDWARE := true
 # Some Flags to Prevent Errors while Copying Files
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
+TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 
 # Audio
 AUDIO_FEATURE_ENABLED_A2DP_OFFLOAD := true
