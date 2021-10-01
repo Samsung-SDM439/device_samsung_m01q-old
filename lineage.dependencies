@@ -1,2 +1,6 @@
 [
+	{
+	"repository":  "android_device_samsung_m01q",
+	"target_path": "vendor/samsung/m01q"
+	}
 ]
