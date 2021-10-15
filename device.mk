@@ -41,7 +41,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-	init.class_main.sh \
+    init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \
     init.qcom.class_core.sh \
