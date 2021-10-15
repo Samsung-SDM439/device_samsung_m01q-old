@@ -172,5 +172,8 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # FS CONFIG
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Inherit from the proprietary version
 -include vendor/samsung/m01q/BoardConfigVendor.mk
