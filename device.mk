@@ -276,4 +276,11 @@ PRODUCT_PACKAGES += \
     libbthost_if \
     libldacBT_bco
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service \
+    libgui_vendor \
+    Snap
+
 
