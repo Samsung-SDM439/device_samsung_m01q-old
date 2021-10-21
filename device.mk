@@ -379,3 +379,7 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml
 
+# VNDK
+PRODUCT_PACKAGES += \
+    vndk_package
+    
