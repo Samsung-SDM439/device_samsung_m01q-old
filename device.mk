@@ -346,4 +346,9 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     Snap
 
-
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+    
