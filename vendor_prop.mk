@@ -173,3 +173,8 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.voice.playback.conc.disabled=true \
     vendor.voice.record.conc.disabled=false \
     vendor.voice.voip.conc.disabled=true \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0
+
