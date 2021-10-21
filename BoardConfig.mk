@@ -214,6 +214,7 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+include $(DEVICE_PATH)/vendor_prop.mk
 
 # Inherit from the proprietary version
 -include vendor/samsung/m01q/BoardConfigVendor.mk
