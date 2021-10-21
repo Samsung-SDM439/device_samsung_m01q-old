@@ -156,6 +156,10 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# QMI
+PRODUCT_PACKAGES += \
+    libjson
+
 # Netutils
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0 \
